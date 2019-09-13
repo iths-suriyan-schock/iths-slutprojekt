@@ -1,0 +1,82 @@
+html {
+    background-color: rgb(216, 0, 0);
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(160, 96, 0);
+}
+
+.wrapper {
+    margin: 0px;
+}
+
+header {
+    background-image: url(/img/phone_RedVSArriAlexa.jpg);
+    height: 25vh;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3rem 3rem;
+    grid-template-areas:
+    "left topright"
+    "right"
+    "left bottom" */
+}
+
+.logo {
+    background-image: url();
+}
+
+header > h1 {
+    background-image: url();
+}
+
+nav {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.home {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+a {
+
+}
+
+main {
+    
+}
+
+.bm {
+    height: 30vh;
+    background-size: cover;
+    background-image: url(/img/phone_blackmagicpcc4k.jpg);
+}
+
+.arri {
+    height: 30vh;
+    background-size: cover;
+    background-image: url(/img/phone_arri-panavision-lens-cam.jpg);
+}
+
+.red {
+    height: 30vh;
+    background-size: cover;
+    background-image: url(/img/phone_red-anton-bauer.jpg);
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+    /* Styles */
