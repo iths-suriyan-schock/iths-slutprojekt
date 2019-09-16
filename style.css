@@ -13,7 +13,7 @@ body {
 
 header {
     background-image: url(/img/phone_RedVSArriAlexa.jpg);
-    height: 25vh;
+    min-height: 155px;
     background-size: cover;
     display: flex;
     justify-content: space-between;
@@ -31,14 +31,33 @@ header {
 }
 
 header > h1 {
-    background-image: url();
+    display: flex;
+    align-self: center;
+    color: aqua;
 }
 
 nav {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.1);
+}
+
+.navpage2 {
+    background-color: black;
+    /* should have background image later */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.descriptiontext {
+    flex-basis: content;
 }
 
 .home {
+    
+}
+
+.features {
 
 }
 
@@ -47,7 +66,7 @@ ul {
 }
 
 li {
-
+    color: brown;
 }
 
 a {
@@ -55,28 +74,58 @@ a {
 }
 
 main {
+        
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container:nth-of-type(2n) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+h2 {
+    font-size: 1rem;
+    color: rgb(255, 174, 0);
+}
+
+p {
+    color: rgb(201, 176, 176);
+    font-size: 0.7rem;
+}
+
+/* .bm {
+    min-height: 150px;
+    line-height: 1.6;
+    background-size: cover;
+    background-image: url(/img/phone_BMPCC6K.jpg);
     
 }
 
-.bm {
-    height: 30vh;
-    background-size: cover;
-    background-image: url(/img/phone_blackmagicpcc4k.jpg);
-}
-
 .arri {
-    height: 30vh;
+    min-height: 150px;
+    line-height: 1.6;
     background-size: cover;
     background-image: url(/img/phone_arri-panavision-lens-cam.jpg);
 }
 
 .red {
-    height: 30vh;
+    min-height: 278px;
+    line-height: 1.6;
     background-size: cover;
     background-image: url(/img/phone_red-anton-bauer.jpg);
-}
+} */
 
+footer {
+    min-height: 299px;
+    line-height: 1.6;
+    background-image: url(/img/phone_many-cams.jpg);
+}
 
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
     /* Styles */
+}
