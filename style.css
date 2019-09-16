@@ -11,6 +11,8 @@ body {
     margin: 0px;
 }
 
+/* HEADER */
+
 header {
     background-image: url(/img/phone_RedVSArriAlexa.jpg);
     min-height: 155px;
@@ -27,30 +29,63 @@ header {
 }
 
 .logo {
-    background-image: url();
+    background-image: url(<div>Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/"         title="Flaticon">www.flaticon.com</a></div>);
 }
 
-header > h1 {
+.headerh1 {
+    margin-top: 2.5rem;
+    margin-left: 1.7rem;
+    height: 15vh;
+    width: 50vw;
     display: flex;
+    flex-direction: column;
+    justify-self: center;
+    /* align-self: center; */
+    font-family: sans-serif;
+    /* font-size: .8rem; */
+    color: rgb(250, 216, 152);
+    background-color: rgba(0,0,0,0.4);
+    
+}
+
+h1 {
+    height: 5vh;
+    width: 45vw;
+    display: flex;
+    justify-content: center;
     align-self: center;
-    color: aqua;
+    font-size: 1rem;
 }
 
 nav {
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.4);
 }
 
-.navpage2 {
+.ulpage1 {
+    height: 20vh;
+    margin-right: 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    
+}
+
+.ulpage2 {
+    height: 8vh;
+    margin-right: 6vw;
     background-color: black;
     /* should have background image later */
     display: flex;
     flex-direction: row;
     align-items: center;
+    /* justify-content: center; */
+    justify-content: space-around;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    text-decoration: none;
     
-}
-
-.descriptiontext {
-    flex-basis: content;
 }
 
 .home {
@@ -62,15 +97,27 @@ nav {
 }
 
 ul {
-
+    color: aqua;
+    text-decoration: none;
 }
 
 li {
     color: brown;
+    text-decoration: none;
 }
 
 a {
+    color: rgb(253, 195, 156);
+    text-decoration: none;
+}
 
+/* MAIN BLOCK */
+
+.descriptiontext {
+    display: flex;
+    flex-basis: content;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
 main {
@@ -118,6 +165,8 @@ p {
     background-size: cover;
     background-image: url(/img/phone_red-anton-bauer.jpg);
 } */
+
+/* FOOTER */
 
 footer {
     min-height: 299px;
